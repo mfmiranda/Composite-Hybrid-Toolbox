@@ -14,7 +14,7 @@ addpath(genpath(strcat(path,sep,'RWFMM_Allcode')))
 addpath(genpath(strcat(path,sep,'tools-for-nifti-and-analyse-image')))
 load(strcat(path1,'X_Design'))
 I2=load_nii(strcat(path,sep,'Talairach-labels-2mm.nii'));
-I_RL=load_nii(strcat(path3,'Task_centered'));
+I_RL=load_nii(strcat(path3,'Task_centered.nii'));
 C=I2.img(32:63,32:63,26:50);
 C2=I_RL.img(32:63,32:63,26:50);
 load(strcat(path1,'Sim_PhiMatrix'))
